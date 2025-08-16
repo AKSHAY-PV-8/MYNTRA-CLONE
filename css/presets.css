@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Regular";
+    src: url("/assets/Assistant-Regular.woff");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url("/assets/Assistant-Bold.woff");
+}
+
+:root{
+    --font-regular: "Bold";
+}
+
+body{
+    font-family: var(--font-regular);
+}
