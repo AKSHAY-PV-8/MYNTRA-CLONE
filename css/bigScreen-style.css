@@ -3,7 +3,7 @@
 *::after{
     box-sizing: border-box;
 }
-.nav-container{
+.navbar__container{
     color: #fff;
     top: 0;
     position: fixed;
@@ -14,7 +14,7 @@
     background-color: #fff;
 }
 
-.nav-container .nav-container-base{
+.navbar__container .navbar__container-base{
     margin: auto;
     min-width: 980px;
     line-height: 80px;
@@ -22,7 +22,7 @@
 
 }
 
-.nav-container-base .nav-logo-container{
+.navbar__container-base .navbar__logo-wrapper{
     float: left;
     height: inherit;
     margin-left: 4%;
@@ -48,7 +48,7 @@
     color: #282c3f;
 }
 
-.nav-link-container{
+.navbar__link-wrapper{
     margin: 0 0 0 1%;
     display: block;
     float: left;
@@ -58,17 +58,17 @@
     
 }
 
-.nav-link-container .nav-link-base{
+.navbar__link-wrapper .navbar__link-base{
     display: inline-block;
     line-height: 80px;
     display: flex;
 }
 
-.nav-link-base .nav-link{
+.navbar__link-base .navbar__link{
     text-align: center;
 }
 
-.nav-link a{
+.navbar__link a{
     padding: 0 17px 28px;
     text-align: center;
     text-decoration: none;
@@ -80,7 +80,7 @@
     background-color: transparent;
     line-height: 80px;
 }
-.nav-link .new{
+.navbar__link .new{
     display: inline;
     margin: 0 0 34px -15px;
     font-size: 10px;
@@ -92,7 +92,7 @@
     color: #ff3f6c;
 }
 
-.nav-actions{
+.navbar__action-wrapper{
     margin-right: 0;
     max-width: 1400px !important;
     float: right;
@@ -103,7 +103,7 @@
 
 }
 
-.nav-actions .user-icon{
+.navbar__action-wrapper .user-icon__wrapper{
     position: relative;
     height: 60px;
     margin: 0 20px 0 15px;
@@ -111,14 +111,14 @@
     line-height: 0;
 }
 
-.user-icon .user-icon-base{
+.user-icon__wrapper .user-icon__base{
     padding: 0 12px 0 17px;
     position: relative;
     display: flex;
     height: 40px;
 }
 
-.user-icon-base .user-icon-logo{
+.user-icon__base .user-icon__logo{
     margin: 10px 0 0;
     position: absolute;
     bottom: 13px;
@@ -135,7 +135,7 @@
 
 
 
-.nav-actions .wishList-icon{
+.navbar__action-wrapper .wish-list{
     margin: 0 55px 0 10px;
     display: flex;
     text-decoration: none;
@@ -143,7 +143,7 @@
     
 }
 
-.wishList-icon .wishList-icon-logo{
+.wish-list .wish-list__logo{
     left: 13px;
     margin: 8px 0 0 ;
     position: absolute;
@@ -158,13 +158,13 @@
 
 
 
-.nav-actions .cart-icon{
+.navbar__action-wrapper .cart-icon{
     position: relative;
     float: right;
     margin: 0 50px 0 15px;
 }
 
-.cart-icon .cart-icon-logo{
+.cart-icon .cart-icon__logo{
     margin: 8px 0 0;
     position: absolute;
     bottom: 14px;
@@ -206,7 +206,7 @@
     line-height: 6px;
 }
 
-.nav-query-container{
+.navbar__search-wrapper{
     width: 320px;
     margin-right: 8px;
     float: right;
@@ -217,7 +217,7 @@
     display: block;
 }
 
-.nav-query-container input{
+.navbar__search-wrapper input{
     display: inline-block;
     font-size: 14px;
     height: 20px;
@@ -237,7 +237,7 @@
     
 }
 
-.desktop-submit{
+.search-icon__wrapper{
     box-sizing: content-box;
     display: inline-block;
     height: 28px;
@@ -271,9 +271,87 @@
 
 /* ------------------main-Section--------------- */
 
-/* .mountRoot{
+/* ------second__navbar------- */
+
+.main-section__wrapper{
     min-height: 1500px;
     margin-top: -2px;
+}
+.main-section__base{
+    margin: 83px auto 0;
+    max-width: 1600px;
     display: block;
-    box-sizing: inherit;
-} */
+    position: relative;
+    left: -8px;
+}
+.row__base{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.second-navbar__base{
+    vertical-align: top;
+    padding: 20px 0 0;
+}
+.second-navbar__base ul{
+    padding-left: 0;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: "Regular";
+    display: inline-block;
+    margin: 0 0 0 25px;
+    vertical-align: top;
+    list-style: none;
+}
+.second-navbar__base li{
+    float: left;
+    margin-right: 5px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+.second-navbar__base li a{
+    text-decoration: none;
+    color: #282c3f;
+    text-transform: capitalize;
+    background-color: transparent;
+    
+}
+.second-navbar__base span{
+    font-size: 14px;
+    line-height: 1;
+}
+.second-navbar__base a ::after{
+    content: "/";
+    padding-left: 5px;
+    
+}
+.main-item-link{
+    text-decoration: none;
+    color: #282c3f;
+    font-family: "Bold" !important;
+}
+
+/* -----title-info----- */
+
+.title__wrapper{
+    margin:  10px 0 5px 25px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    overflow: hidden;
+}
+.page-title{
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #282c3f;
+    max-width: 400px;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+}
