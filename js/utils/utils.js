@@ -1,11 +1,12 @@
 
-const sidebar = document.getElementById("filter-section");
-const stickPoint = 100;
-
-window.addEventListener("scroll", () =>{
-    if(window.scrollY >= stickPoint){
-        sidebar.classList.add("fixed")
-    }else{
-        sidebar.classList.remove("fixed")
+export const fetchProducts = async () =>{
+    try{
+        const response = await fetch('/product-data.json');
+        const data = await response.json();
+        console.log("product data fetch successfully !!!");
+        return data.response;
+        
+    }catch(error){
+        console.log("error in fetching data !!!", error);
     }
-})
+}

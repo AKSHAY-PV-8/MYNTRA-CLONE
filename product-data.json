@@ -1,0 +1,41 @@
+{
+    "products": [
+        {
+            "brand": "Red Tape",
+            "name": "Men Textured",
+            "discountPrice": 1049,
+            "price": 6999,
+            "discountPercentage": "85%",
+            "newItem": true,
+            "waterMark": true,
+            "rating": 4.7,
+            "ratinCount": 16,
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+        },
+        {
+            "brand": "Red Tape",
+            "name": "Men Textured",
+            "discountPrice": 1049,
+            "price": 6999,
+            "discountPercentage": "85%",
+            "newItem": true,
+            "waterMark": true,
+            "rating": 4.7,
+            "ratinCount": 16,
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+        },
+        {
+            "brand": "Red Tape",
+            "name": "Men Textured",
+            "discountPrice": 1049,
+            "price": 6999,
+            "discountPercentage": "85%",
+            "newItem": true,
+            "waterMark": true,
+            "rating": 4.7,
+            "ratinCount": 16,
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+        }
+        
+    ]
+}
