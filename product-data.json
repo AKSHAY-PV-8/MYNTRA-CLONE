@@ -2,39 +2,55 @@
     "products": [
         {
             "brand": "Red Tape",
-            "name": "Men Textured",
-            "discountPrice": 1049,
+            "name": "Men Textured Sneakers",
+            "discountPrice": 1189,
             "price": 6999,
-            "discountPercentage": "85%",
+            "discountPercentage": "83%",
             "newItem": true,
             "waterMark": true,
-            "rating": 4.7,
-            "ratingCount": 16,
+            "rating": 4.5,
+            "ratingCount": 17,
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg",
             "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
         },
         {
             "brand": "Red Tape",
-            "name": "Men Textured",
-            "discountPrice": 1049,
-            "price": 6999,
-            "discountPercentage": "85%",
+            "name": "Men Round Toe Sneakers",
+            "discountPrice": 1223,
+            "price": 7199,
+            "discountPercentage": "83%",
             "newItem": false,
             "waterMark": true,
-            "rating": 4.7,
-            "ratingCount": 16,
-            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+            "rating": 4.4,
+            "ratingCount": 1400,
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29996635/2024/9/26/0b0f7152-6f64-4f18-a186-044dd6834fc21727354924424-Red-Tape-Men-Colourblocked-Round-Toe-Memory-Foam-Sneakers-42-1.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29996635/2024/9/26/0b0f7152-6f64-4f18-a186-044dd6834fc21727354924424-Red-Tape-Men-Colourblocked-Round-Toe-Memory-Foam-Sneakers-42-1.jpg"
         },
         {
-            "brand": "Red Tape",
-            "name": "Men Textured",
-            "discountPrice": 1049,
-            "price": 6999,
-            "discountPercentage": "85%",
-            "newItem": true,
+            "brand": "HRX by Hrithik Roshan",
+            "name": "Unisex Back To School Shoes",
+            "discountPrice": 739,
+            "price": 3699,
+            "discountPercentage": "90%",
+            "newItem": false,
             "waterMark": false,
-            "rating": 4.7,
+            "rating": 4.2,
             "ratingCount": 16,
-            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29553912/2024/5/17/5f90bc0f-c248-4bff-8a88-54128a77c4a61715927218769HRXbyHrithikRoshanUnisexTexturedSneakers1.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29553912/2024/5/17/5f90bc0f-c248-4bff-8a88-54128a77c4a61715927218769HRXbyHrithikRoshanUnisexTexturedSneakers1.jpg"
+        },
+        {
+            "brand": "HRX by Hrithik Roshan",
+            "name": "Round Toe Lace-Ups Sneakers",
+            "discountPrice": 1119,
+            "price": 3399,
+            "discountPercentage": "67%",
+            "newItem": false,
+            "waterMark": false,
+            "rating": 4.3,
+            "ratingCount": 54,
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/32064729/2024/12/26/a17d0f9b-85f1-4c87-8e6a-2c4cfadf63971735217897857HRXbyHrithikRoshanUnisexSneakers1.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32064729/2024/12/26/a17d0f9b-85f1-4c87-8e6a-2c4cfadf63971735217897857HRXbyHrithikRoshanUnisexSneakers1.jpg"
         },
         {
             "brand": "Red Tape",
@@ -46,7 +62,8 @@
             "waterMark": true,
             "rating": 4.7,
             "ratingCount": 16,
-            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+            "source": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/19/8esw6YKc_0346e625c7e349efba73ed2b0f4625c5.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2024/JULY/29/6xDjrKNT_1c000df180b841b690cd7ac98984e554.jpg"
         },
         {
             "brand": "Red Tape",
@@ -58,7 +75,8 @@
             "waterMark": true,
             "rating": 4.7,
             "ratingCount": 16,
-            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg"
         },
         {
             "brand": "Red Tape",
@@ -70,7 +88,34 @@
             "waterMark": true,
             "rating": 4.7,
             "ratingCount": 16,
-            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg"
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg"
+        },
+        {
+            "brand": "Red Tape",
+            "name": "Men Textured",
+            "discountPrice": 1049,
+            "price": 6999,
+            "discountPercentage": "85%",
+            "newItem": true,
+            "waterMark": true,
+            "rating": 4.7,
+            "ratingCount": 16,
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg"
+        },
+        {
+            "brand": "Red Tape",
+            "name": "Men Textured",
+            "discountPrice": 1049,
+            "price": 6999,
+            "discountPercentage": "85%",
+            "newItem": true,
+            "waterMark": true,
+            "rating": 4.7,
+            "ratingCount": 16,
+            "source": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg",
+            "src": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29553914/2024/5/16/402e4e48-9020-4e59-a8bd-ae8f5e3aa3431715799849775HRXbyHrithikRoshanUnisexColourblockedSneakers1.jpg"
         }
         
     ]

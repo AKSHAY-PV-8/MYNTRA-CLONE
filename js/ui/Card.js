@@ -30,6 +30,7 @@ const desktopCards = async() => {
             waterMark,
             rating,
             ratingCount,
+            source,
             src 
         } = productDetails;
 
@@ -51,7 +52,7 @@ const desktopCards = async() => {
                     <div class="img-section__wrapper">
                         <div class="img__section">
                             <picture draggable="false" class="img-responsive" style="width: 100%; height: 100%; display: block;">
-                                <source srcset="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/23/FAjUm0RA_6b534ac659dd43d98aa01f3df42787d0.jpg" type="image/webp">
+                                <source srcset="${source}" type="image/webp">
                                 <img draggable="false" src="${src}" class="img-responsive" alt="Red Tape RT Neo Classics' 96 Men's Casual Shoes" title="Red Tape RT Neo Classics' 96 Men's Casual Shoes" style="width: 100%; display: block;">
                             </picture>
                         </div>
