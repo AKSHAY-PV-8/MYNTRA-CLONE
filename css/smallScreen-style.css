@@ -1,0 +1,112 @@
+@media screen and (max-width: 1240px) {
+    
+    .desktop-view{
+        display: none !important;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "Regular";
+        box-sizing: border-box;
+    }
+    .mobile-navbar__wrapper{
+        background-color: #fff;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        box-shadow: 0 1px 2px 0 transparent;
+        display: block;
+        
+    }
+    .back-button-icon__container{
+        display: inline-block;
+    }
+    .back-button-icon__container svg{
+        margin-left: 16px !important;
+        display: inline-block;
+        vertical-align: top;
+        width: 24px;
+        height: 24px;
+        margin: 16px 16px 16px 0;
+        overflow: hidden;
+    }
+    .mobile-main-logo__wrapper{
+        margin-left: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 24px;
+        height: 24px;
+        margin: 16px 16px 16px 0;
+        font-size: 13px;
+        line-height: 1.42857143;
+        position: relative;
+        left: -3.5px;
+    }
+    .mobile-main-logo__wrapper svg{
+        overflow: hidden;
+    }
+    .mobile-navbar-header__wrapper{
+        top: 11px;
+        display: inline-block;
+        font-size: 16px;
+        vertical-align: top;
+        position: relative;
+        left: -6.5px;
+        font-weight: 700;
+        line-height: normal;
+        width: calc(100% - 260px);
+        text-transform: capitalize;
+    }
+    .mobile-navbar-header{
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: -18px;
+        margin-top: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: "Bold" !important;
+        color: #424553;
+        line-height: 1.1;
+        margin: .67 0;
+    }
+    .mobile-items__count{
+        font-size: 12px;
+        font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        text-transform: capitalize;
+        font-family: "Regular";
+        color: #424553;
+    }
+    .mobile-navbar-icons__wrapper{
+        float: right !important;
+        display: inline-block;
+    }
+    /* .mobile-navbar-icon{
+        display: inline-block;
+        position: relative;
+        top: 1px;
+        vertical-align: top;
+        height: 22px;
+        margin: 17px 16px 16px 0;
+        width: 24px;
+    } */
+    .mobile-navbar-icon svg{
+        overflow: hidden;
+        width: 20px;
+        height: 20px;
+    }
+    .mobile-navebar__icon{
+        width: 24px;
+        height: 24px;
+        margin: 16px 16px 16px 0;
+        display: inline-block;
+        outline: 0;
+        text-decoration: none;
+    }
+
+
+}
