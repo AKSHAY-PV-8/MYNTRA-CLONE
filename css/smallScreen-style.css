@@ -115,6 +115,7 @@
     }
     .mobile-head-line__section{
         padding: 12px 6px;
+        padding-bottom: 14px;
         display: table;
         background-image: linear-gradient(90deg, #bd6da6, #d799cb);
         width: 100%;
@@ -131,7 +132,7 @@
         color: #fff;
     }
     .head-line__text{
-        font-weight: 700;
+        font-weight: 800;
         font-family: "Bold";
     }
     .head-line__sub-text{
@@ -141,5 +142,232 @@
         font-family: "Regular";
         margin-top: 3px;
     }
+
+    /* ------------mobile-card---------- */
+
+    .mobile-card__list{
+        list-style: none;
+        padding: 0;
+        overflow: hidden;
+        clear: both;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: block;
+    }
+    .mobile-card{
+        clear: left;
+        border-right: .5px solid #d4d5d9;
+        border-top: 1px solid #d4d5d9;
+        border-bottom: .5px solid #d4d5d9;
+        float: left;
+        width: 50%;
+        margin: 0;
+        overflow: hidden;
+        list-style: none;
+        position: relative;
+        text-align: center;
+        overflow: hidden;
+    }
+    .mobile-card__base{
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        display: block;
+        outline: 0;
+    }
+    .mobile-card__base picture{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .mobile-card__base picture img{
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        height: 255px;
+        opacity: 1;
+        display: block;
+        max-width: 100%;
+    }
+    .mobile-product-rating__container{
+        position: absolute;
+        height: 18px;
+        margin: -28px 0 0 11px;
+        border: 1px solid #eaeaec;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2px 5px;
+        border-radius: 9px;
+        width: auto;
+    }
+    .mobile-rating__text{
+        font-size: 10px;
+        font-weight: 600;
+        font-family: "Bold";
+        text-align: center;
+        position: relative;
+        top: -1px;
+        
+    }
+    .mobile-rating__star{
+        font-size: 9px;
+        padding: 3px;
+        text-align: center;
+        display: inline;
+        background-size: cover;
+        position: relative;
+        margin: 0 6px 0 4px;
+        background-image: url("/assets/img/2bce8a2b-e1d5-465a-8980-62f3d778377c1548353615799-Fill-90-Copy-7.png");  
+    }
+    .bar{
+        font-weight: 700;
+        font-size: 13;
+        text-align: center;
+        color: rgb(148, 150, 159);
+
+    }
+    .mobile-rating__count{
+        font-size: 10px;
+        font-weight: 600;
+        margin-left: 5px;
+        position: relative;
+        font-family: "Regular";
+        top: -1px;
+    }
+    .ad__container{
+        background-color: #a9abb3;
+        border-radius: 2px;
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        padding: 0 2px;
+        font-size: 10px;
+        color: #fff;
+    }
+    .mobile-card__details-section{
+        position: relative;
+        display: block;
+    }
+    .mobile-product__details-wrap{
+        padding: 8px 0;
+        font-size: 12px;
+        display: block;
+    }
+    .mobile-product__details-wrap h3{
+        padding-left: 8px;
+        font-weight: 700;
+        line-height: 1.57;
+        text-align: left;
+        color: #282c3f;
+        font-size: 13px;
+        width: 85%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: "Bold";
+        margin: 0;
+    }
+    .mobile-product__details-wrap h4{
+        opacity: .6;
+        padding-left: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 180px;
+        margin: 0;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: left;
+        color: #282c3f;
+        height: 12px;
+        position: relative;
+        top: -1px;
+    }
+    .mobile-product-price__container{
+        margin-top: -1px;
+        padding-left: 6px;
+        text-align: left;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .mobile-product-price{
+        font-weight: 700;
+        color: #282c3f;
+        font-size: 13px;
+        text-align: left;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mobile__price-value{
+        position: relative;
+        left: -2px;
+        top: -1px;
+        font-weight: 700;
+        color: #282c3f;
+        font-size: 13px;
+        text-align: left;
+        white-space: nowrap;
+        font-family: "Bold";
+    }
+    .mobile-cross-amount__section{
+        text-align: left;
+        white-space: nowrap;
+        opacity: .4;
+        color: #282c3f;
+        text-decoration: line-through;
+        font-size: 13px;
+        position: relative;
+        top: -1px;
+        margin-left: 2px;
+    }
+    .mobile-cross-amount__section svg{
+        position: relative;
+        top: 1px;
+        overflow: hidden;
+    }
+    .mobile-cross__amount{
+        position: relative;
+        left: -1px;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: "Regular" !important;
+    }
+    .mobile-discount__container{
+        color: #ff905a;
+        font-weight: 700;
+        font-size: 11px;
+        white-space: nowrap;
+        text-align: left;
+        position: relative;
+        top: 1px;
+        margin-left: 3px;
+    }
+    .mobile-discount__container{
+        font-family: "Bold";
+        font-weight: 700;
+    }
+    .mobile-wish-list__icon{
+        color: #282c3f;
+        display: inline-block;
+        position: absolute;
+        bottom: 43px;
+        right: 0;
+        top: 2px;
+        padding-top: 4px;
+        padding-left: 15px;
+        height: 38px;
+    }
+
+
 
 }
