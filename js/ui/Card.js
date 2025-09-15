@@ -16,9 +16,9 @@ const desktopCards = async() => {
 
     const data = await fetchProducts();
 
-    const producData = [...data];
+    const productData = [...data];
 
-    for(let productDetails of producData){
+    for(let productDetails of productData){
 
         let {
             brand,
