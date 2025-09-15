@@ -108,5 +108,38 @@
         text-decoration: none;
     }
 
+    /* -------head-line__section------ */
+    
+    .mobile-main__section{
+        padding-top: 55px;
+    }
+    .mobile-head-line__section{
+        padding: 12px 6px;
+        display: table;
+        background-image: linear-gradient(90deg, #bd6da6, #d799cb);
+        width: 100%;
+        table-layout: fixed;
+    }
+    .mobile-head-line__base{
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+        font-size: 12px;
+        display: table-cell;
+        text-align: center;
+        color: #fff;
+    }
+    .head-line__text{
+        font-weight: 700;
+        font-family: "Bold";
+    }
+    .head-line__sub-text{
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        font-family: "Regular";
+        margin-top: 3px;
+    }
 
 }
