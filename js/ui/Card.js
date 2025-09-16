@@ -1,8 +1,10 @@
 
-import { fetchProducts } from "../utils/utils.js";
+import { productData } from "../main.js";
 
 const cardDisplayContainer = document.getElementById("card-display");
+//
 
+//
 let cardsList = ``;
 
 let dummyList = `<li class="result__li-dummy"></li>
@@ -12,11 +14,8 @@ let dummyList = `<li class="result__li-dummy"></li>
                  <li class="result__li-dummy"></li>
                 `
 
+
 const desktopCards = async() => {
-
-    const data = await fetchProducts();
-
-    const productData = [...data];
 
     for(let productDetails of productData){
 
@@ -92,7 +91,6 @@ export const renderCards = async() => {
 
     cardsList = ``;
     await desktopCards();
-
     cardDisplayContainer.innerHTML = `${cardsList}${dummyList}`
 
 }

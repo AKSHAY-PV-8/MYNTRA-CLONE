@@ -385,12 +385,12 @@
                         <section class="filter-options__section">
                             <div class="filter-options__wrapper">
                                 <div>
-                                    <div class="sort-by__options">
+                                    <div class="sort-by__options" id="filter-option__container">
                                         <div class="sort-by__wrapper">
                                             Sort by :
                                             <span class="recommended" style="font-family: Bold;">Recommended</span>
                                             <span class="toggle-icon"></span>
-                                            <ul class="toggle-option__list">
+                                            <ul class="toggle-option__list" id="filter__options">
                                                 <li>
                                                     <label for="" class="sort-list__label">
                                                         <input type="radio" value="recommended">
@@ -403,31 +403,31 @@
                                                         What's New
                                                     </label>
                                                 </li>
-                                                <li>
+                                                <li id="Popularity">
                                                     <label for="" class="sort-list__label">
                                                         <input type="radio" value="Popularity">
                                                         Popularity
                                                     </label>
                                                 </li>
-                                                <li>
+                                                <li id="Discount">
                                                     <label for="" class="sort-list__label">
                                                         <input type="radio" value="discount">
                                                         Better Discount
                                                     </label>
                                                 </li>
-                                                <li>
+                                                <li id="HighToLow">
                                                     <label for="" class="sort-list__label">
                                                         <input type="radio" value="price-des">
                                                         Price: High to Low
                                                     </label>
                                                 </li>
-                                                <li>
+                                                <li id="LowToHigh">
                                                     <label for="" class="sort-list__label">
                                                         <input type="radio" value="price-asc">
                                                         Price: Low to High
                                                     </label>
                                                 </li>
-                                                <li>
+                                                <li id="Rating">
                                                     <label for="" class="sort-list__label">
                                                         <input type="radio" value="Rating">
                                                         Customer Rating
