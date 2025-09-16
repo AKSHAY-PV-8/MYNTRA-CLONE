@@ -3,6 +3,9 @@
     .desktop-view{
         display: none !important;
     }
+    .mobile-view{
+        display: block;
+    }
     body{
         margin: 0;
         padding: 0;
@@ -435,4 +438,117 @@
         display: block;
         text-align: center;
     }
+
+    /* -----------mobile footer section------ */
+
+    .mobile-footer__wrapper{
+        padding: 20px 20px 30px;
+        background: #f5f5f6;
+        display: block;
+    }
+    .useful-links{
+        color: #696b79;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    
+    .useful-links a{
+        text-decoration: none;
+        text-align: left;
+        color: #282c3f;
+        font-weight: 700;
+        font-family: "Bold";
+        display: block;
+        font-size: 15px;
+    }
+    .social-links h4{
+        color: #282c3f;
+        font-family: "Bold";
+        font-weight: 600;
+        font-size: 14px;
+        margin: 23px 0;
+
+    }
+    .useful-links span,
+    .useful-links p{
+        text-align: left;
+        font-size: 13px;
+        display: inline;
+    }
+    .useful-links span::after{
+        color: #3e4152;
+        margin: 10px 5px;
+        content:  " | " !important;
+    }
+    .customer-policies{
+        margin-top: 41px;
+    }
+    .customer-policies a{
+        position: relative;
+        top: -5px !important;
+    }
+    .last-links{
+        margin-top: 17px;
+    }
+    .last-links a{
+        margin-bottom: 4px !important;
+    }
+    .social-links a{
+        padding: 15px;
+        padding-left: 0;
+        padding-right: 25px;
+        font-size: 27px;
+        text-decoration: none;
+        display: inline;
+    }
+    .mobile__copyright{
+        color: #94969f;
+        font-size: 9px;
+        margin: 20px 0 0;
+    }
+    .copyright__rihgt-text{
+        float: right !important;
+    }
+    .mobile-price-table__container{
+        font-size: 11px;
+        padding: 0 20px 60px;
+        background: #f5f5f6;
+    }
+    .mobile-price-table__title{
+        font-size: 17px;
+        margin-top: 0;
+        margin-bottom: 9px;
+        font-weight: 700;
+        line-height: 1.1;
+        color: #424553;
+    }
+    .mobile-price-table__wrapper thead th{
+        text-align: left;
+        vertical-align: top;
+        padding-right: 10px;
+        color: #424553;
+        font-size: 11px;
+        height: 31.425px;
+    }
+    .mobile-price-table__wrapper td{
+        text-align: left;
+        vertical-align: top;
+        padding-right: 10px;
+        font-size: 11px;
+        color: #282c3f;
+        white-space: wrap;
+        padding-bottom: 3px;
+    }
+    .mobile-price-table__wrapper td a{
+        color: #282c3f;
+        text-decoration: none;
+        outline: 0;
+        text-align: left;
+        font-size: 11px;
+        font-family: "Regular";
+        font-weight: 100;
+    }
+
+
+    
 }
