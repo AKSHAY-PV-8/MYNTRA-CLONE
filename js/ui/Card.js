@@ -1,10 +1,8 @@
-
 import { productData } from "../main.js";
 
-const cardDisplayContainer = document.getElementById("card-display");
-//
 
-//
+
+const cardDisplayContainer = document.getElementById("card-display");
 let cardsList = ``;
 
 let dummyList = `<li class="result__li-dummy"></li>
@@ -12,8 +10,11 @@ let dummyList = `<li class="result__li-dummy"></li>
                  <li class="result__li-dummy"></li>
                  <li class="result__li-dummy"></li>
                  <li class="result__li-dummy"></li>
-                `
+                `;
 
+
+
+//-------Render cards-------
 
 const desktopCards = async() => {
 
@@ -32,7 +33,6 @@ const desktopCards = async() => {
             source,
             src 
         } = productDetails;
-
 
         cardsList += `
             <li class="card-item__wrapper">
@@ -81,17 +81,20 @@ const desktopCards = async() => {
                     </div>
                 </a>
             </li>
-            ` 
+           ` 
     }
-    return cardsList
-
+    return cardsList;
 }
+
+
+
+//------Public rendering-------
 
 export const renderCards = async() => {
 
     cardsList = ``;
     await desktopCards();
-    cardDisplayContainer.innerHTML = `${cardsList}${dummyList}`
+    cardDisplayContainer.innerHTML = `${cardsList}${dummyList}`;
 
 }
 

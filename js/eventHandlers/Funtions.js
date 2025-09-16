@@ -1,7 +1,7 @@
-import { sortHandler } from "../controllers/sortFunctionContollers.js";
+import { sortHandler } from "../controllers/sortFunctionControllers.js";
 
 
-export const funtctionHandler = () =>{
+export const funtctionHandler = () => {
     sortHandler();
 }
 

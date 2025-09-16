@@ -3,9 +3,9 @@ import { renderCards } from "../ui/Card.js";
 
 
 const options = document.querySelectorAll(".toggle-option__list li");
-let optionClicked = ""
+let optionClicked = "";
 
-//Handler
+//------Handler--------
 
 export const sortHandler = async() => {
     
@@ -20,28 +20,14 @@ export const sortHandler = async() => {
     
 }
 
-//function
+//-----function------
 
 export const sortOptions = () => {
     switch (optionClicked){
-        case "LowToHigh":
+        
+        case "New":
             productData.sort((a,b) => {
-                return a.discountPrice - b.discountPrice;
-            })
-            break;
-        case "HighToLow":
-            productData.sort((a,b) =>{
-                return b.discountPrice - a.discountPrice;
-            })
-            break;
-        case "Rating":
-            productData.sort((a,b) =>{
-                return b.rating - a.rating ;
-            })
-            break;
-        case "Discount":
-            productData.sort((a,b) => {
-                return b.discountPercentage - a.discountPercentage;
+                return b.createAt - a.createAt;
             })
             break;
         case "Popularity":
@@ -49,10 +35,26 @@ export const sortOptions = () => {
                 return b.ratingCount - a.ratingCount;
             })
             break;
-        case "New":
+        case "Discount":
             productData.sort((a,b) => {
-                return b.createAt - a.createAt;
+                return b.discountPercentage - a.discountPercentage;
             })
+            break;
+        case "HighToLow":
+            productData.sort((a,b) =>{
+                return b.discountPrice - a.discountPrice;
+            })
+            break;
+        case "LowToHigh":
+            productData.sort((a,b) => {
+                return a.discountPrice - b.discountPrice;
+            })
+            break;
+        case "Rating":
+            productData.sort((a,b) =>{
+                return b.rating - a.rating ;
+            })
+            break;
         default:
             productData.length = 0;
             productData.push(...copy);
