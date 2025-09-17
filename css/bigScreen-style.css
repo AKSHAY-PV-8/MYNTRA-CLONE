@@ -467,7 +467,7 @@
     z-index: 10;
     width: 16px;
     height: 16px;
-}
+}                            
 .common-checkbox input:checked{
     accent-color: #ff3f6c !important;
 }
