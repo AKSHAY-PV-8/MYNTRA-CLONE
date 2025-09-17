@@ -1,6 +1,12 @@
 export const styling = () => {
 
+
+    //---functions calls----
     toggleDown();
+    // checkBoxCheckStyle();
+
+
+    //----function declarations-----
 
     function toggleDown(){
 
@@ -18,13 +24,31 @@ export const styling = () => {
 
             document.addEventListener("click", () =>{
                 if(option.style.display === "block"){
-                    option.style.display = "none"
+                    option.style.display = "none";
                 }
             })
 
         }catch(error){
-            console.log("erroe in toggleDown function !!!", error)
+            console.log("erroe in toggleDown function !!!", error);
         }
     }
+
+    // function checkBoxCheckStyle(){
+    //     const checkBox = document.querySelectorAll(".checkbox__indicator");
+
+    //     checkBox.forEach((checked) => {
+
+    //         checked.addEventListener("click", () => {
+
+    //             if( checked.style.background === ""){
+    //                 checked.style.background = "#ff3f6c";
+    //             }else if(checked.style.background === "rgb(255, 63, 108)"){
+    //                 checked.style.background = "";
+    //             }
+    //         })
+    //     })
+    // }
+
+    
 
 }
