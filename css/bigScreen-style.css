@@ -468,7 +468,7 @@
     width: 16px;
     height: 16px;
 }
-.common-checkbox input[type="checkbox"]:checked{
+.common-checkbox input:checked{
     accent-color: #ff3f6c !important;
 }
 .common-checkbox span{
@@ -632,8 +632,11 @@
 }
 .discount-input{
     margin: 0 16px 0 0 ;
-    visibility: hidden;
+    /* visibility: hidden; */
     padding: 0;
+}
+.discount-input:checked{
+    accent-color: #ff3f6c;
 }
 .radio-button{
     border-radius: 50% !important;

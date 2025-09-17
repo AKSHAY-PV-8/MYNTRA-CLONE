@@ -1,5 +1,5 @@
-import { brandFilterHandler } from "../controllers/brandFilterController.js";
-import { colorFilterHandler } from "../controllers/colorFilterController.js";
+import { FilterHandler } from "../controllers/brandFilterController.js";
+import { discountRangeHandler } from "../controllers/discountRangeHandler.js";
 import { sortHandler } from "../controllers/sortFunctionControllers.js";
 
 
@@ -8,8 +8,9 @@ import { sortHandler } from "../controllers/sortFunctionControllers.js";
 
 export const funtctionHandler = () => {
     sortHandler();
-    brandFilterHandler();
-    colorFilterHandler();
+    FilterHandler();
+    discountRangeHandler();
+
 }
 
 

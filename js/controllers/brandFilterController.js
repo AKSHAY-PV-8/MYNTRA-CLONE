@@ -2,10 +2,10 @@ import { copy, productData } from "../main.js";
 import { renderCards } from "../ui/Card.js";
 
 
-//-------Brand-filter-function------
+//-------filter-function------
 
 
-export const brandFilterHandler = () => {
+export const FilterHandler = () => {
 
     const brandOptions = document.querySelectorAll(".brand-list input[type = 'checkbox']");
     console.log("checkboxes", brandOptions)
@@ -15,6 +15,7 @@ export const brandFilterHandler = () => {
             brand.addEventListener("change", () => {
 
                 let checkedBrandOption = Array.from(brandOptions).filter(option => option.checked).map(option => option.id);
+                console.log("checked BrandOption",checkedBrandOption)
 
                 if(checkedBrandOption.length === 0){
                     productData.length = 0;
@@ -23,8 +24,8 @@ export const brandFilterHandler = () => {
                 }else{
 
                     const brandSet = new Set(checkedBrandOption)
-                    let filteredProduct = copy.filter(product => brandSet.has(product.brand));
-                    productData.length = 0
+                    let filteredProduct = copy.filter(product => brandSet.has(product.brand) || brandSet.has(product.color) || brandSet.forEach(brand => product.discountPercentage >= brand));
+                    productData.length = 0;
                     productData.push(...filteredProduct);
                     renderCards();
                 }
