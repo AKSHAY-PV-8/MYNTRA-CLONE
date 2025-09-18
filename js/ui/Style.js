@@ -2,11 +2,52 @@ export const styling = () => {
 
 
     //---functions calls----
+
+
+    // rendering of filter option screen
+    toggleFilterSection();
+    //toggle down the sort option of desktop view
     toggleDown();
-    // checkBoxCheckStyle();
+  
 
 
     //----function declarations-----
+
+    function toggleFilterSection(){
+
+        const filterOptionsSelector = document.querySelectorAll(".filter-panel__wrap");
+
+        try{
+            filterOptionsSelector.forEach(option => option.addEventListener("click", () => {
+                let selectedOption = option.id;
+                console.log(selectedOption)
+                filterOptionScreenDisplay(selectedOption)
+        }));
+        }catch(error){
+            console.error(error);
+        }
+
+    }
+
+    function filterOptionScreenDisplay(option){
+
+        try{
+            const optionScreens = document.querySelectorAll(".filter__option-bar")
+            optionScreens.forEach(screen => screen.style.display = "none");
+
+            const sizeOptionScreen = document.querySelector(`.${option}`);
+            if(sizeOptionScreen){
+                sizeOptionScreen.style.display = "block";
+            }else{
+                console.log("this option is not finished !!!")
+            }
+
+        }catch(error){
+            console.error("error in filter option rendering !!!", error);
+        }
+        
+
+    }
 
     function toggleDown(){
 
@@ -32,23 +73,5 @@ export const styling = () => {
             console.log("erroe in toggleDown function !!!", error);
         }
     }
-
-    // function checkBoxCheckStyle(){
-    //     const checkBox = document.querySelectorAll(".checkbox__indicator");
-
-    //     checkBox.forEach((checked) => {
-
-    //         checked.addEventListener("click", () => {
-
-    //             if( checked.style.background === ""){
-    //                 checked.style.background = "#ff3f6c";
-    //             }else if(checked.style.background === "rgb(255, 63, 108)"){
-    //                 checked.style.background = "";
-    //             }
-    //         })
-    //     })
-    // }
-
-    
 
 }
