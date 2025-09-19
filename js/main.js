@@ -17,8 +17,8 @@ window.addEventListener('load', async() => {
         copy = [...data];
         renderCards();
     })();
-    
     renderMobileCard();
+    
     styling();
     funtctionHandler();
 })

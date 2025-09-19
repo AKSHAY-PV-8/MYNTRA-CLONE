@@ -631,6 +631,7 @@
         top: 0;
         z-index: 120;
         position: fixed;
+        display: none;
     }
     .filter-popup__header{
         border-bottom: 1px solid #eaeaec;
@@ -697,6 +698,10 @@
         overflow: hidden;
         list-style: none;
     }
+    .filter-panel__wrap .active{
+        background-color: #ea5906 !important;
+        color: #ea5906;
+    }
     .filter-panel__base{
         background: #f5f5f6;
         font-size: 14px;
@@ -721,6 +726,8 @@
         background-color: #94969f;
         color: #fff;
         list-style: none;
+        font-family: "Bold";
+        padding-bottom: 5px;
     }
 
     /* ------aSide__size-section----- */
@@ -908,5 +915,34 @@
         height: 4px;
         border-bottom: 4px;
     }
+
+    .filter-button__wrapper{
+        border-top: 1px solid #eaeaec;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        margin: 0;
+        background-color: #fff;
+        color: #3e4152;
+    }
+    .close_button{
+        font-family: "Regular";
+        font-weight: 400;
+        font-size: 14px !important;
+        position: relative;
+        letter-spacing: -0.1px;
+        left: -23px;
+    }
+    .apply{
+        color: #ff3e6c;
+        font-weight: 700;
+        font-size: 14px;
+        font-family: "Bold";
+        position: relative;
+        left: -15px;
+        letter-spacing: -0.1px;
+    }
+
 
 }

@@ -459,14 +459,14 @@
     font-size: 14px;
 }
 .common-checkbox input{
-    margin: 0 13px 0 0;
+    margin: 0 10px 0 0 !important;
     /* visibility:  hidden; */
     padding: 0;
     overflow: visible;
     background-color: #090909;
     z-index: 10;
     width: 16px;
-    height: 16px;
+    height: 14px;
 }                            
 .common-checkbox input:checked{
     accent-color: #ff3f6c !important;
@@ -474,7 +474,7 @@
 .common-checkbox span{
     color: #94969f;
     font-size: 11px;
-    /* margin-left: 4px; */
+    margin-left: 4px;
     white-space: nowrap;
     cursor: pointer;
 }
@@ -1031,6 +1031,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    
 }
 .double-arrow__wrap{
     opacity: .6;
@@ -1161,8 +1162,10 @@
 .price-list__container{
     font-size: 12px;
     float: right;
-    padding-left: 30px;
+    padding-left: 0px;
     max-width: 380px;
+    position: relative;
+    left: -5px;
 }
 .price-list__title{
     text-transform: uppercase;
@@ -1212,7 +1215,10 @@
     font-weight: 700;
     text-align: center;
     color: #696b79;
-    font-size: 16px; 
+    font-size: 16px;
+    position: relative;
+    left: -18px;
+    top: 16px;
 }
 .description__container{
     font-size: 14px;
@@ -1220,6 +1226,9 @@
     margin: 20px 0;
     color: #7e818c;
     width: 61%;
+    position: relative;
+    top: 5px;
+    left: -4px;
 }
 .description__container p,
 .description__container li{
@@ -1256,18 +1265,22 @@
     overflow: hidden;
     margin-bottom: 24px;
     display: flex;
+    position: relative;
+    left: -4px;
 }
 .footer__shop-links{
     float: left;
     width: 155px ;
     display: inline-block;
     vertical-align: top;
-    padding-right: 20px;
+    position: relative;
+    top: 6px;
+    left: 0px;
 }
 .footer__feature-section p{
     font-weight: 700;
     font-size: 12px;
-    font-family: "Regular";
+    font-family: "Bold";
     white-space: nowrap;
 }
 .footer__feature-section span{
@@ -1285,6 +1298,13 @@
     float: left;
     box-sizing: inherit;
     display: block;
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
+.footer__customer-policies p{
+    margin-bottom: 25px;
+    font-family: "Bold";
 }
 .footer__app-experience{
     display: inline-block;
@@ -1295,6 +1315,13 @@
     float: left;
     line-height: 19px;
     padding-top: 13px;
+    position: relative;
+    top: 4px;
+    left: 20px;
+}
+.footer__app-experience p{
+    font-family: "Bold";
+    padding-bottom: 27px !important;
 }
 .store-link__container{
     display: inline-block;
@@ -1320,7 +1347,7 @@
     font-size: 12px;
     margin-bottom: 10px;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .app-icon{
     margin: 0 15px 0 0 ;
@@ -1334,6 +1361,9 @@
     width: 250px;
     float: left;
     display: block;
+    position: relative;
+    left: 40px;
+    top: 5px;
 }
 .footer__promises-section{
     margin: 15px 0 30px;
@@ -1350,10 +1380,16 @@
 }
 .promises__text strong{
     color: #282c3f;
+    font-family: "Bold";
 }
 .promises__text{
     display: block;
     font-family: "Regular";
+}
+.footer__popular-search{
+    position: relative;
+    top: 8px;
+    left: -4px;
 }
 .popular-search__title{
     position: absolute;
@@ -1383,6 +1419,9 @@
     width: 100%;
     margin-top: 40px;
     font-family: "Regular";
+    position: relative;
+    top: 7px;
+    left: -4px;
 }
 .footer__info-contact{
     flex: 1;

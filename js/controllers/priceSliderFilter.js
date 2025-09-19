@@ -12,8 +12,11 @@ const priceText = document.querySelector(".slider-price");
 const sliderWidth = slider.offsetWidth;
 const maxPrice = 100000;
 
-let currentMinValue = 200;
-let currentMaxValue = 100000;
+export let currentMinValue = 200;
+export let currentMaxValue = 100000;
+
+export let selectedMinvalue = 0;
+export let selectedMaxvalue = 0;
 
 
 
@@ -77,6 +80,9 @@ function mouseDrag(thumb, isMin) {
         document.removeEventListener('mouseup', mouseUp);
         console.log("min", currentMinValue);
         console.log("max", currentMaxValue);
+        selectedMinvalue = currentMinValue;
+        selectedMaxvalue = currentMaxValue;
+
         filteredProducts();
     }
 
@@ -93,6 +99,7 @@ function filteredProducts() {
     productData.push(...Products);
     renderCards();
 }
+
 
 
 

@@ -1,0 +1,35 @@
+@media screen and (min-width: 1366px) {
+
+    .navbar__search-wrapper{
+        width: 400px !important;
+        position: relative;
+        left: -12px;
+    }
+    .navbar__search-wrapper input{
+        float: left !important;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .navbar__link-wrapper{
+        margin: 0 0 0 3.5% !important;
+    }
+    .navbar__search-wrapper{
+        margin: 20px 20px 20px 40px !important;
+        position: relative;
+        left: -30px !important;
+    }
+    .navbar__action-wrapper{
+        position: relative;
+        left: -30px !important;
+    }
+    
+}
+
+@media screen and (min-width: 1500px) {
+    .navbar__search-wrapper{
+        width: 32% !important;
+        
+    }
+}
