@@ -9,10 +9,11 @@
 }
 
 :root{
-    --font-regular: "Bold";
+    --font-regular: "Regular";
+    --font-bold: "Bold";
 }
 
 body{
-    font-family: var(--font-regular);
+    font-family: var(--font-bold);
     margin-right: 0px !important;
 }

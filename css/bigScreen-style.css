@@ -471,10 +471,18 @@
 .common-checkbox input:checked{
     accent-color: #ff3f6c !important;
 }
+.categories-num{
+    color: #94969f;
+    font-size: 11px;
+    /* margin-left: 4px; */
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: 0 !important;
+}
 .common-checkbox span{
     color: #94969f;
     font-size: 11px;
-    margin-left: 4px;
+    margin-left: 0px;
     white-space: nowrap;
     cursor: pointer;
 }
